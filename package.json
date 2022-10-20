@@ -1,0 +1,31 @@
+{
+  "name": "new3s-cli",
+  "version": "1.0.1",
+  "description": "cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "new3s-cli": "bin/new3s-cli",
+    "new3s-cli-add": "bin/new3s-cli-add",
+    "new3s-cli-delete": "bin/new3s-cli-delete",
+    "new3s-cli-list": "bin/new3s-cli-list",
+    "new3s-cli-init": "bin/new3s-cli-init"
+  },
+  "keywords": [
+    "new3s-pro",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "cli-table": "^0.3.11",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "8.0.0",
+    "log-symbols": "4.0.0",
+    "ora": "3.2.0"
+  }
+}
